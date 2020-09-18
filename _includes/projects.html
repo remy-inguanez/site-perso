@@ -1,0 +1,14 @@
+<section id="projects" class="section scrollspy">
+	<div class="row center">
+		<h4 id="title">FEATURED PROJECTS</h4>
+		<hr id="hrTitle">
+		<p>For more of my projects, visit my <a href="http://github.com/rchung95">Github!</a> I am also available for hire as a freelance in iOS or web development projects.</p>
+	</div>
+		<div class="row center">
+		{% for things in site.posts %}
+			<div class="col s12 m3 l3">
+				<a href="{{ things.url }}"><img id='blank' src="img/{{ things.image }}"></a>
+			</div>
+		{% endfor %}
+		</div>
+</section>
