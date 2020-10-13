@@ -40,7 +40,7 @@ footer#contact {
     background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
 }
 
-h4#title {
+h3#title {
     /* color: #58c4ea; */
     letter-spacing: 4px;
     font-weight: 300;
@@ -103,7 +103,7 @@ img#pic {
 }
 
 p#desc {
-    font-size: 2rem;
+    font-size: 6rem;
 }
 
 h1#raymond {
@@ -188,10 +188,11 @@ div#skills {
     color: #fff;
     background-color: #15c4a1;
     margin-bottom: 4px;
+    font-size: 16px;
 }
 
 p#aboutSkills {
-    font-size: 14pt;
+    font-size: 20px;
     margin-bottom: -1px;
 }
 
