@@ -101,6 +101,11 @@ img#pic {
     -moz-border-radius: 65px; /* compatibilité avec Firefox */
     -webkit-border-radius: 65px;
 }
+img#logo {
+    width: 70%;
+    height: 70%;
+    margin-top: 40px;
+}
 
 p#desc {
     font-size: 6rem;
